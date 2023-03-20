@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/danisbagus/go-common-packages v1.1.2
+	github.com/gorilla/mux v1.8.0
 	github.com/joho/godotenv v1.5.1
 	github.com/segmentio/kafka-go v0.4.39
 	go.uber.org/zap v1.20.0
