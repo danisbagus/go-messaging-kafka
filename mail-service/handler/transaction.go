@@ -39,7 +39,7 @@ func (h TransactionHandler) Consume(ctx context.Context, message kafka.Message) 
 		if err != nil {
 			return fmt.Errorf("failed send mail transaction paid:" + err.Error())
 		}
-		resMsg = "successfully seng mail transaction paid"
+		resMsg = "successfully send mail transaction paid"
 	default:
 		return fmt.Errorf("unsupported action:" + payload.Action)
 	}
