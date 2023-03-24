@@ -30,7 +30,7 @@ TOPIC_TRANSACTION=
 GROUP_ID_TRANSACTION=
 ```
 
-Get Go packages
+Get go packages
 
 ```bash
 go get .
